@@ -392,7 +392,7 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -20.32 90)
+				(at 1.27 -15.24 90)
 				(length 3.81)
 				(hide yes)
 				(name "GND"
@@ -411,7 +411,7 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -20.32 90)
+				(at 1.27 -15.24 90)
 				(length 3.81)
 				(hide yes)
 				(name "GND"
@@ -430,7 +430,7 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -20.32 90)
+				(at 1.27 -15.24 90)
 				(length 3.81)
 				(hide yes)
 				(name "GND"
