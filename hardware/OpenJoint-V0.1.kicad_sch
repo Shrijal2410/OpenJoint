@@ -1458,176 +1458,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "D_Small"
-				(at -3.81 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED_Small"
 			(pin_numbers
 				(hide yes)
@@ -1940,6 +1770,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SS210"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS210"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 2A Schottky Diode, SMA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS210_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SS210_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_CAN_LIN:SN65HVD230"
 			(pin_names
 				(offset 1.016)
@@ -2161,192 +2141,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5002,6 +4796,12 @@
 		(uuid "102afc62-e15c-4245-96cc-b569538a7196")
 	)
 	(junction
+		(at 24.13 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13c88ebd-eb80-468d-9bea-5bfee0c8c1c8")
+	)
+	(junction
 		(at 67.31 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5054,18 +4854,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f70d406-8323-4add-9962-8c8b7ff94a30")
-	)
-	(junction
-		(at 34.29 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "600a628e-0ec3-4deb-b002-7c1272ca1c82")
-	)
-	(junction
-		(at 34.29 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68b1014a-7f8c-4b93-9ecb-ad4f554eb2b7")
 	)
 	(junction
 		(at 49.53 55.88)
@@ -5126,6 +4914,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb1d2ed7-3b5e-47fb-9ac2-836226ab1d4f")
+	)
+	(junction
+		(at 38.1 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf4b17f7-4bf0-442b-be70-832e4d44692d")
 	)
 	(junction
 		(at 168.91 62.23)
@@ -5248,6 +5042,16 @@
 			(type default)
 		)
 		(uuid "0379ec10-ca2f-4e98-8c19-368c02f2a92f")
+	)
+	(wire
+		(pts
+			(xy 27.94 80.01) (xy 24.13 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05839d00-c9e2-429f-b4b7-1a529936ef73")
 	)
 	(wire
 		(pts
@@ -5411,26 +5215,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 62.23) (xy 224.79 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "165859ab-5b88-4133-88e4-a6efed2b5cd1")
-	)
-	(wire
-		(pts
-			(xy 218.44 64.77) (xy 224.79 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16ec6431-5d97-4afe-b49a-1c24774a98a2")
-	)
-	(wire
-		(pts
 			(xy 39.37 175.26) (xy 25.4 175.26)
 		)
 		(stroke
@@ -5471,16 +5255,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 73.66) (xy 38.1 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a11bc8b-b5b2-4abd-88c6-ae137a788fba")
-	)
-	(wire
-		(pts
 			(xy 233.68 62.23) (xy 233.68 66.04)
 		)
 		(stroke
@@ -5508,16 +5282,6 @@
 			(type default)
 		)
 		(uuid "1d80866a-b668-4fe7-879a-969faeaff51a")
-	)
-	(wire
-		(pts
-			(xy 218.44 67.31) (xy 224.79 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eb85b4c-824d-45d1-9197-c49ec94539f2")
 	)
 	(wire
 		(pts
@@ -5641,16 +5405,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 81.28) (xy 34.29 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31fcab06-8c20-4b28-9791-1f9d8575f254")
-	)
-	(wire
-		(pts
 			(xy 264.16 38.1) (xy 264.16 39.37)
 		)
 		(stroke
@@ -5718,16 +5472,6 @@
 			(type default)
 		)
 		(uuid "3e6c6044-cda5-4ed7-b88e-d9fe86e276b9")
-	)
-	(wire
-		(pts
-			(xy 218.44 59.69) (xy 224.79 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f6179e7-07f7-4f7a-a1ed-c404c5b7ffe0")
 	)
 	(wire
 		(pts
@@ -5811,6 +5555,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 73.66) (xy 25.4 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a7ccd89-ecc5-427e-bf77-b8337e1b640c")
+	)
+	(wire
+		(pts
 			(xy 36.83 46.99) (xy 36.83 48.26)
 		)
 		(stroke
@@ -5891,7 +5645,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 39.37) (xy 186.69 39.37)
+			(xy 190.5 39.37) (xy 189.23 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6031,16 +5785,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 83.82) (xy 34.29 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a188ac5-9d83-4d27-a553-fc7186e85c44")
-	)
-	(wire
-		(pts
 			(xy 87.63 71.12) (xy 87.63 77.47)
 		)
 		(stroke
@@ -6121,7 +5865,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 77.47) (xy 99.06 78.74)
+			(xy 101.6 77.47) (xy 101.6 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6201,6 +5945,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 80.01) (xy 38.1 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcd1a75-0c63-4a0d-ba8c-1148e09f8845")
+	)
+	(wire
+		(pts
 			(xy 257.81 39.37) (xy 264.16 39.37)
 		)
 		(stroke
@@ -6241,6 +5995,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 73.66) (xy 38.1 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89bfc249-6f8b-4436-b6da-987600098896")
+	)
+	(wire
+		(pts
 			(xy 59.69 120.65) (xy 54.61 120.65)
 		)
 		(stroke
@@ -6248,6 +6012,16 @@
 			(type default)
 		)
 		(uuid "89d785e3-781f-4b76-975e-d4e5f778fdf5")
+	)
+	(wire
+		(pts
+			(xy 24.13 80.01) (xy 24.13 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c8db230-6abc-4a98-a230-14b71d42d8a9")
 	)
 	(wire
 		(pts
@@ -6511,16 +6285,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 73.66) (xy 34.29 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcfff12e-508d-40e2-b424-dbd87f84dee9")
-	)
-	(wire
-		(pts
 			(xy 200.66 58.42) (xy 200.66 57.15)
 		)
 		(stroke
@@ -6561,7 +6325,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 73.66) (xy 48.26 73.66)
+			(xy 46.99 73.66) (xy 52.07 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6571,7 +6335,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 77.47) (xy 99.06 77.47)
+			(xy 100.33 77.47) (xy 101.6 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6611,16 +6375,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 83.82) (xy 34.29 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce001015-3707-429d-8af3-4dcb21d5bba1")
-	)
-	(wire
-		(pts
 			(xy 67.31 118.11) (xy 67.31 123.19)
 		)
 		(stroke
@@ -6631,7 +6385,17 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 38.1) (xy 187.96 39.37)
+			(xy 38.1 73.66) (xy 41.91 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d45e6ccd-b8a9-44a0-96b2-dcaf16030a13")
+	)
+	(wire
+		(pts
+			(xy 190.5 38.1) (xy 190.5 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6668,6 +6432,16 @@
 			(type default)
 		)
 		(uuid "d7732a72-6604-4793-a7ca-4e8cc04f1c78")
+	)
+	(wire
+		(pts
+			(xy 24.13 80.01) (xy 24.13 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d78bd2a7-ecdd-4e51-a95a-450743392470")
 	)
 	(wire
 		(pts
@@ -6851,7 +6625,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 73.66) (xy 34.29 73.66)
+			(xy 35.56 73.66) (xy 38.1 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7159,26 +6933,6 @@
 		)
 		(uuid "5b36b1c6-5726-4649-a45e-b7ff5b601c6b")
 	)
-	(label "IO5"
-		(at 224.79 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5d6cb8db-5fa9-4247-9b35-650cf0e944d2")
-	)
-	(label "IO10"
-		(at 224.79 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5dd5b594-1961-4e92-a572-23384eb13b82")
-	)
 	(label "USB_D+"
 		(at 180.34 54.61 0)
 		(effects
@@ -7239,16 +6993,6 @@
 		)
 		(uuid "8b93c503-436d-4cf1-80c2-d14fd5228bb8")
 	)
-	(label "IO7"
-		(at 224.79 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "96a4f63f-6d21-4922-b2cc-b6ccb3238456")
-	)
 	(label "IO2"
 		(at 52.07 50.8 0)
 		(effects
@@ -7308,16 +7052,6 @@
 			(justify right bottom)
 		)
 		(uuid "b20ee186-5e5b-4a53-bcc3-6a30971bc57d")
-	)
-	(label "IO6"
-		(at 224.79 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b674f5cc-f4a0-4a57-9ddb-e6a143bb493e")
 	)
 	(label "GPIO0"
 		(at 67.31 77.47 90)
@@ -7380,7 +7114,7 @@
 		(uuid "cc67e3c2-c5bb-4eb5-9022-b628d70c4ee6")
 	)
 	(label "EN"
-		(at 48.26 73.66 180)
+		(at 52.07 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7514,7 +7248,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12c8e3e8-4100-4cb0-9fd9-3bd2bde08b46")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR013"
 			(at 168.91 71.12 0)
 			(effects
 				(font
@@ -7564,7 +7298,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR025")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7579,7 +7313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "166563be-7129-487d-b02b-8a1370aa727e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR025"
 			(at 52.07 161.29 0)
 			(effects
 				(font
@@ -7629,7 +7363,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR015")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7644,7 +7378,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "179e8491-6baa-4adb-b7bf-fa10068979d1")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 167.64 106.68 0)
 			(effects
 				(font
@@ -7694,7 +7428,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7709,7 +7443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18f8df64-6878-4cfd-8c62-e1c6f5b0022d")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 128.27 57.1562 0)
 			(effects
 				(font
@@ -7727,7 +7461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 125.73 58.42 0)
 			(effects
 				(font
@@ -7763,7 +7497,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7778,7 +7512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2261417c-3007-4e00-818d-82aac5699525")
-		(property "Reference" "R6"
+		(property "Reference" "R11"
 			(at 68.58 114.3 0)
 			(effects
 				(font
@@ -7796,7 +7530,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 67.31 115.57 0)
 			(effects
 				(font
@@ -7832,7 +7566,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "R6")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7847,7 +7581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26344fd0-7701-4850-b88e-880cbb802089")
-		(property "Reference" "TP1"
+		(property "Reference" "5V1"
 			(at 154.94 86.36 0)
 			(effects
 				(font
@@ -7865,7 +7599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 160.02 91.44 0)
 			(effects
 				(font
@@ -7898,7 +7632,7 @@
 		(instances
 			(project ""
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "TP1")
+					(reference "5V1")
 					(unit 1)
 				)
 			)
@@ -7906,15 +7640,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 85.09 0)
+		(at 24.13 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "27466cbd-f537-4a97-afff-35149a7f0710")
-		(property "Reference" "#PWR04"
-			(at 34.29 91.44 0)
+		(property "Reference" "#PWR015"
+			(at 24.13 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7923,7 +7657,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 88.9 0)
+			(at 24.13 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7931,7 +7665,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 85.09 0)
+			(at 24.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7940,7 +7674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 85.09 0)
+			(at 24.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7949,7 +7683,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 85.09 0)
+			(at 24.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7963,7 +7697,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR04")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7978,7 +7712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cc15330-af4a-4476-8e6f-47d257bc5609")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 120.65 57.1562 0)
 			(effects
 				(font
@@ -7996,7 +7730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 118.11 58.42 0)
 			(effects
 				(font
@@ -8032,7 +7766,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8048,7 +7782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d9126a8-9bd5-4c2d-822b-032fe77598da")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 167.64 85.09 0)
 			(effects
 				(font
@@ -8103,7 +7837,7 @@
 		(instances
 			(project ""
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8118,7 +7852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "304ba56f-1c77-45a6-9e76-5b2a68073cf0")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 41.91 172.72 0)
 			(effects
 				(font
@@ -8190,7 +7924,7 @@
 		(instances
 			(project ""
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -8205,7 +7939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3058fd3b-3f43-416f-b182-6c2fd44cb426")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG02"
 			(at 242.57 60.325 0)
 			(effects
 				(font
@@ -8256,7 +7990,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#FLG03")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -8271,7 +8005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31d7f35f-cfc0-44ec-bb35-676e04cc28b5")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 190.5 90.17 90)
 			(effects
 				(font
@@ -8287,7 +8021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 194.31 91.44 0)
 			(effects
 				(font
@@ -8323,7 +8057,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8338,7 +8072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3279e6c8-ef80-427d-ae25-87ba10424e82")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR012"
 			(at 246.38 69.85 0)
 			(effects
 				(font
@@ -8388,75 +8122,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 93.98 77.47 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "327f6800-622c-4a8e-b738-5bd7ec706c07")
-		(property "Reference" "JP1"
-			(at 93.98 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 93.98 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 93.98 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 93.98 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29b467b2-bccf-4012-bdc7-579f045a702c")
-		)
-		(pin "2"
-			(uuid "52a1d1d8-cb54-4ce3-bf17-ded0dbae7169")
-		)
-		(instances
-			(project ""
-				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "JP1")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8471,7 +8137,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3400f856-5c2c-4995-83dc-2524ed71f03c")
-		(property "Reference" "C8"
+		(property "Reference" "C12"
 			(at 43.18 152.4 90)
 			(effects
 				(font
@@ -8487,7 +8153,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 45.72 153.67 0)
 			(effects
 				(font
@@ -8523,7 +8189,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "C8")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8538,7 +8204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36119c12-2f61-4a38-b4d6-43a82c505fde")
-		(property "Reference" "C11"
+		(property "Reference" "C9"
 			(at 180.34 93.9862 0)
 			(effects
 				(font
@@ -8556,7 +8222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 177.8 95.25 0)
 			(effects
 				(font
@@ -8592,7 +8258,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "C11")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8607,7 +8273,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c1d4ae6-bc11-4c61-bf53-89af02cd0e56")
-		(property "Reference" "R1"
+		(property "Reference" "R6"
 			(at 39.37 54.61 90)
 			(effects
 				(font
@@ -8623,7 +8289,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 43.18 55.88 0)
 			(effects
 				(font
@@ -8659,7 +8325,7 @@
 		(instances
 			(project ""
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "R1")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8674,7 +8340,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42533559-4344-4257-bd7b-925e93fd1dc3")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 186.69 93.98 0)
 			(effects
 				(font
@@ -8724,7 +8390,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8739,7 +8405,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "438cd6fd-9847-4a81-be07-480d9ec900e3")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR021"
 			(at 24.13 121.92 0)
 			(effects
 				(font
@@ -8789,7 +8455,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR011")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8804,7 +8470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "482a31d4-3872-4b25-8c98-90fceb9c0079")
-		(property "Reference" "C7"
+		(property "Reference" "C11"
 			(at 26.67 121.9262 0)
 			(effects
 				(font
@@ -8822,7 +8488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 24.13 123.19 0)
 			(effects
 				(font
@@ -8858,7 +8524,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "C7")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8866,15 +8532,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 40.64 73.66 90)
+		(at 44.45 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4dba8857-db7a-4f98-b339-b8e0683c9630")
-		(property "Reference" "R2"
-			(at 36.83 72.39 90)
+		(property "Reference" "R7"
+			(at 40.64 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8882,15 +8548,15 @@
 			)
 		)
 		(property "Value" "0"
-			(at 43.18 72.39 90)
+			(at 46.99 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 40.64 73.66 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 44.45 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8899,7 +8565,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 73.66 0)
+			(at 44.45 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8908,7 +8574,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 40.64 73.66 0)
+			(at 44.45 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,7 +8591,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "R2")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8940,7 +8606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f0f6503-1017-412e-9b5c-f3e77992de36")
-		(property "Reference" "C12"
+		(property "Reference" "C10"
 			(at 189.23 93.9862 0)
 			(effects
 				(font
@@ -8958,7 +8624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 186.69 95.25 0)
 			(effects
 				(font
@@ -8994,7 +8660,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "C12")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9098,7 +8764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fd993a2-b080-4216-a6df-30acdfbdb1a0")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 109.22 49.53 90)
 			(effects
 				(font
@@ -9114,7 +8780,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 113.03 50.8 0)
 			(effects
 				(font
@@ -9150,7 +8816,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9165,7 +8831,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "517a37f4-c3f2-42e5-b37b-b57f4d91cdbe")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR04"
 			(at 269.24 46.99 0)
 			(effects
 				(font
@@ -9215,7 +8881,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR023")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9248,7 +8914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 27.94 44.45 0)
 			(effects
 				(font
@@ -9291,6 +8957,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 95.25 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c4504f0-1a24-4552-8865-57c545c8580d")
+		(property "Reference" "SW2"
+			(at 95.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 95.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SW_SPST_PTS810"
+			(at 95.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 95.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05d77ac0-770e-4ae6-8c07-b5a109bc226e")
+		)
+		(pin "2"
+			(uuid "a6db20f1-c261-4890-bafb-9abd166aa3ac")
+		)
+		(instances
+			(project "OpenJoint-V0.1"
+				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 39.37 176.53 0)
 		(unit 1)
@@ -9299,7 +9033,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60098b15-9160-41ae-a3f6-d78d8c69387a")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR026"
 			(at 39.37 182.88 0)
 			(effects
 				(font
@@ -9349,7 +9083,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR014")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -9440,7 +9174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63c4d6d7-ee3a-478e-9b0a-7266e430a65d")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 194.31 50.8 90)
 			(effects
 				(font
@@ -9457,7 +9191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 195.58 51.435 0)
 			(effects
 				(font
@@ -9497,7 +9231,7 @@
 		(instances
 			(project ""
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9513,7 +9247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "644bafd7-8435-4be5-9113-ca21682c98b8")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 43.18 110.49 0)
 			(effects
 				(font
@@ -9655,7 +9389,7 @@
 		(instances
 			(project ""
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -9663,7 +9397,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 29.21 78.74 90)
+		(at 30.48 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9671,16 +9405,15 @@
 		(dnp no)
 		(uuid "649e6f37-e2c2-4570-b3ad-e9556eaecdcf")
 		(property "Reference" "SW1"
-			(at 22.86 77.47 90)
+			(at 30.48 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 24.13 78.74 0)
+			(at 30.48 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9688,8 +9421,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 24.13 78.74 0)
+		(property "Footprint" "SamacSys_Parts:SW_SPST_PTS810"
+			(at 30.48 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9698,7 +9431,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 78.74 0)
+			(at 30.48 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9707,7 +9440,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 29.21 78.74 0)
+			(at 30.48 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9805,7 +9538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e119550-673a-4afd-85cb-13c9a26f0d95")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 27.94 40.64 0)
 			(effects
 				(font
@@ -9855,7 +9588,7 @@
 		(instances
 			(project ""
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9870,7 +9603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7410807d-edb3-42a5-867d-3df67defd935")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR05"
 			(at 27.94 55.88 0)
 			(effects
 				(font
@@ -9920,7 +9653,7 @@
 		(instances
 			(project ""
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9935,7 +9668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79284eca-a940-4057-a537-c9c2f3a3bece")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR010"
 			(at 49.53 69.85 0)
 			(effects
 				(font
@@ -9985,7 +9718,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR03")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10000,7 +9733,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a361526-1ed8-4c40-9c30-af3a7529b43b")
-		(property "Reference" "R7"
+		(property "Reference" "R12"
 			(at 26.67 170.18 0)
 			(effects
 				(font
@@ -10018,7 +9751,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 25.4 171.45 0)
 			(effects
 				(font
@@ -10054,7 +9787,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "R7")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10069,7 +9802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ea8cba2-991d-4a6f-9f90-e78788b62d4b")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR09"
 			(at 240.03 66.04 0)
 			(effects
 				(font
@@ -10119,7 +9852,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR020")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10134,7 +9867,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "811e0666-91a8-4122-b39d-b98474d15803")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 86.36 80.01 0)
 			(effects
 				(font
@@ -10152,7 +9885,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 85.09 81.28 0)
 			(effects
 				(font
@@ -10188,7 +9921,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10203,7 +9936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84347e67-3e9b-43c7-85e0-df4ebe5e88a7")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR023"
 			(at 57.15 134.62 0)
 			(effects
 				(font
@@ -10253,7 +9986,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR09")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10268,7 +10001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d9a8fab-800d-48cf-bbd4-7008b458f7b0")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 236.22 60.325 0)
 			(effects
 				(font
@@ -10319,7 +10052,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -10334,7 +10067,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "904fb202-352b-4311-9a06-42bdd5a296e6")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG03"
 			(at 246.38 60.325 0)
 			(effects
 				(font
@@ -10385,7 +10118,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#FLG04")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -10401,7 +10134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90956747-4f06-437f-a241-d6ec6713888c")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 168.91 29.21 0)
 			(effects
 				(font
@@ -10417,7 +10150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprint:USB-TYPE-C-31-M-12"
 			(at 172.72 45.72 0)
 			(effects
 				(font
@@ -10498,7 +10231,7 @@
 		(instances
 			(project ""
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -10506,33 +10239,31 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 34.29 78.74 180)
+		(at 30.48 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "90b691a9-b947-4720-b50f-75bcda537a9a")
-		(property "Reference" "C4"
-			(at 36.83 77.47 0)
+		(property "Reference" "C6"
+			(at 27.94 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "0.1u"
-			(at 36.83 80.01 0)
+			(at 34.29 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 34.29 78.74 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 30.48 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10541,7 +10272,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 78.74 0)
+			(at 30.48 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10550,7 +10281,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 34.29 78.74 0)
+			(at 30.48 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10567,7 +10298,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "C4")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10582,7 +10313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92b1aa76-98c3-4a73-bd2f-3935670ea3c9")
-		(property "Reference" "R11"
+		(property "Reference" "R4"
 			(at 153.67 50.8 0)
 			(effects
 				(font
@@ -10600,7 +10331,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 152.4 52.07 0)
 			(effects
 				(font
@@ -10636,82 +10367,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 213.36 62.23 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9cfb0966-34eb-4700-803b-9b5eecb240b6")
-		(property "Reference" "J5"
-			(at 213.36 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x04"
-			(at 213.36 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "footprint:TerminalBlock_Xinya_2.54-4P_1x04_P2.54mm_Horizontal"
-			(at 213.36 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 213.36 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "cca2d498-ea42-44de-9050-8008486c8f73")
-		)
-		(pin "1"
-			(uuid "2dd1eac3-d499-481b-86e5-e10930ef49b8")
-		)
-		(pin "2"
-			(uuid "7c7abc84-99f8-44f1-86cd-ccb1c216887e")
-		)
-		(pin "3"
-			(uuid "7ae4a1c6-555c-4e33-a68c-562119aae7c1")
-		)
-		(instances
-			(project "OpenJoint-V0.1"
-				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "J5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10726,7 +10382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9dbc6bfe-4e4a-4139-861a-7e7a580433fa")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR024"
 			(at 39.37 156.21 0)
 			(effects
 				(font
@@ -10776,7 +10432,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR013")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -10856,7 +10512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ea26bed-4a66-42e6-b3d9-b4b0da3e5b19")
-		(property "Reference" "R12"
+		(property "Reference" "R3"
 			(at 146.05 50.8 0)
 			(effects
 				(font
@@ -10874,7 +10530,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 144.78 52.07 0)
 			(effects
 				(font
@@ -10910,7 +10566,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "R12")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10925,7 +10581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a09f53ce-04cd-465f-82a8-b9d85f80bd00")
-		(property "Reference" "R5"
+		(property "Reference" "R10"
 			(at 60.96 114.3 0)
 			(effects
 				(font
@@ -10943,7 +10599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 59.69 115.57 0)
 			(effects
 				(font
@@ -10979,7 +10635,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "R5")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -10994,7 +10650,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4f5bf1e-e245-4e4f-91d7-d58be31df523")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 146.05 93.98 0)
 			(effects
 				(font
@@ -11044,7 +10700,7 @@
 		(instances
 			(project ""
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11061,7 +10717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a998a05f-d0c9-4c6c-bb98-4f43b06bc08c")
-		(property "Reference" "J6"
+		(property "Reference" "J1"
 			(at 233.68 31.75 0)
 			(effects
 				(font
@@ -11126,7 +10782,7 @@
 		(instances
 			(project ""
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "J6")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -11141,7 +10797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aace0f69-a97e-41a5-9d8c-0bbd28fbf1fc")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR01"
 			(at 241.3 36.83 0)
 			(effects
 				(font
@@ -11191,7 +10847,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR024")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11206,7 +10862,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab1cdc10-d38b-4708-b0f6-3decd2faa37a")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR07"
 			(at 200.66 64.77 0)
 			(effects
 				(font
@@ -11256,7 +10912,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR021")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -11329,91 +10985,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 184.15 39.37 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b74aef43-55d6-4ad1-914a-b11977003328")
-		(property "Reference" "D2"
-			(at 184.15 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS24"
-			(at 184.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 184.15 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 184.15 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 184.15 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "38c683bc-7c2c-4c9a-bddb-44c9392d756b")
-		)
-		(pin "1"
-			(uuid "49efed0e-5752-4b50-adb1-ba7c496a265a")
-		)
-		(instances
-			(project ""
-				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 233.68 62.23 0)
 		(unit 1)
@@ -11422,7 +10993,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba8b71ca-7cab-4f29-94cc-86cbf1d49041")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR08"
 			(at 233.68 66.04 0)
 			(effects
 				(font
@@ -11472,7 +11043,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR026")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -11553,7 +11124,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c43411a6-37e0-4746-8aa9-ff82c8c097ab")
-		(property "Reference" "TP2"
+		(property "Reference" "3V1"
 			(at 177.8 86.36 0)
 			(effects
 				(font
@@ -11571,7 +11142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 182.88 91.44 0)
 			(effects
 				(font
@@ -11604,7 +11175,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "TP2")
+					(reference "3V1")
 					(unit 1)
 				)
 			)
@@ -11619,7 +11190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c55c6da0-c06f-4e31-8c0f-5ef4a58744fe")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR020"
 			(at 63.5 113.03 0)
 			(effects
 				(font
@@ -11669,7 +11240,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR012")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11684,7 +11255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c70e3cfa-a78d-4783-a721-b84fd4c6a811")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR022"
 			(at 24.13 134.62 0)
 			(effects
 				(font
@@ -11734,7 +11305,75 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR010")
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS210")
+		(at 185.42 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ced4f92a-c8a5-49fe-ba16-dd7cd2e256f0")
+		(property "Reference" "D1"
+			(at 185.7375 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS210"
+			(at 185.7375 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 185.42 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf"
+			(at 185.42 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 2A Schottky Diode, SMA"
+			(at 185.42 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0ea1087-5045-42a0-bb4b-a1f61c79738c")
+		)
+		(pin "1"
+			(uuid "2739dfa1-4c5d-48fd-af51-080ac626922d")
+		)
+		(instances
+			(project ""
+				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -11742,15 +11381,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 187.96 38.1 0)
+		(at 190.5 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ceeadd6f-e2f0-4e54-a5b7-5c837b6ab471")
-		(property "Reference" "#PWR08"
-			(at 187.96 41.91 0)
+		(property "Reference" "#PWR03"
+			(at 190.5 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11759,7 +11398,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 187.96 34.29 0)
+			(at 190.5 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11767,7 +11406,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 38.1 0)
+			(at 190.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11776,7 +11415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 38.1 0)
+			(at 190.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11785,7 +11424,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 187.96 38.1 0)
+			(at 190.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11799,7 +11438,7 @@
 		(instances
 			(project ""
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR08")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -11815,7 +11454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0587e96-2905-4643-b7a4-89e29e501df7")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 201.93 95.1864 90)
 			(effects
 				(font
@@ -11833,7 +11472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 199.39 95.25 90)
 			(effects
 				(font
@@ -11878,7 +11517,7 @@
 		(instances
 			(project ""
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -11893,7 +11532,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1c7d2ea-fd38-4191-b49d-1be6e89f0f4a")
-		(property "Reference" "C9"
+		(property "Reference" "C7"
 			(at 148.59 93.9862 0)
 			(effects
 				(font
@@ -11911,7 +11550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 146.05 95.25 0)
 			(effects
 				(font
@@ -11947,7 +11586,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "C9")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -11962,7 +11601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "deba3f0a-dc09-4fb3-b00e-8ab653f6301a")
-		(property "Reference" "R8"
+		(property "Reference" "R1"
 			(at 39.37 49.53 90)
 			(effects
 				(font
@@ -11978,7 +11617,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 43.18 50.8 0)
 			(effects
 				(font
@@ -12014,7 +11653,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "R8")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -12029,7 +11668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e557e4cf-bf87-41d5-903b-92eec1c6ab67")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 52.07 58.4262 0)
 			(effects
 				(font
@@ -12047,7 +11686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 49.53 59.69 0)
 			(effects
 				(font
@@ -12083,7 +11722,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -12091,15 +11730,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 78.74 0)
+		(at 101.6 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e5a1c6ce-5891-4aac-b7cb-0edcb20a758d")
-		(property "Reference" "#PWR05"
-			(at 99.06 85.09 0)
+		(property "Reference" "#PWR014"
+			(at 101.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12108,7 +11747,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 82.55 0)
+			(at 101.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12116,7 +11755,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 78.74 0)
+			(at 101.6 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12125,7 +11764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 78.74 0)
+			(at 101.6 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12134,7 +11773,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 78.74 0)
+			(at 101.6 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12148,7 +11787,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR05")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -12163,7 +11802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e75d3f77-a4d9-414a-8433-1dee2fbee8c1")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR011"
 			(at 121.92 69.85 0)
 			(effects
 				(font
@@ -12213,73 +11852,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 177.8 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb318a27-5916-448f-9fac-00a72f0f523c")
-		(property "Reference" "TP3"
-			(at 177.8 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 175.26 101.0921 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 177.8 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9475b8b6-12d3-47c1-8aca-fafa12b6a144")
-		)
-		(instances
-			(project "OpenJoint-V0.1"
-				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "TP3")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -12433,7 +12006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f00825ef-bb63-4a1f-b229-90bd4fa71adb")
-		(property "Reference" "C10"
+		(property "Reference" "C8"
 			(at 157.48 93.9862 0)
 			(effects
 				(font
@@ -12451,7 +12024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 154.94 95.25 0)
 			(effects
 				(font
@@ -12487,7 +12060,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "C10")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -12502,7 +12075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6479c59-237f-450b-86a9-d9cdd554c7d2")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR06"
 			(at 147.32 63.5 0)
 			(effects
 				(font
@@ -12552,7 +12125,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "#PWR022")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -12585,7 +12158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 36.83 44.45 0)
 			(effects
 				(font
@@ -12636,7 +12209,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb66725d-45e0-488c-9226-552c1391ef22")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 109.22 52.07 90)
 			(effects
 				(font
@@ -12652,7 +12225,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 113.03 53.34 0)
 			(effects
 				(font
@@ -12688,7 +12261,7 @@
 		(instances
 			(project "OpenJoint-V0.1"
 				(path "/2515ad60-4d54-4306-ba19-e70148416e64"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
